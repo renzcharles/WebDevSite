@@ -1,4 +1,4 @@
-/* Navbar Styling */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -11,14 +11,14 @@
     max-width: 1200px;
 }
 
-/* Logo */
+
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
     color: #ff5724;
 }
 
-/* Search Bar */
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@
     color: #ff5724;
 }
 
-/* Navigation Links */
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -71,14 +71,14 @@
     color: white;
 }
 
-/* Mobile Menu (Hamburger) */
+
 .hamburger {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-/* Responsive Navbar */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -101,14 +101,14 @@
     }
 }
 
-/* Wrapper styling */
+
 .wrapper {
     text-align: center;
     padding: 40px 20px;
     background-color: #f9f9f9;
 }
 
-/* Title and Description */
+
 .wrapper h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -130,7 +130,7 @@
     padding: 20px;
 }
 
-/* Individual Service Card */
+
 .card {
     background: #fff;
     padding: 20px;
@@ -145,35 +145,32 @@
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Service Icons */
+
 .card i {
     font-size: 50px;
     color: #ff5724;
     margin-bottom: 10px;
 }
 
-/* Service Titles */
 .card h2 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
 }
 
-/* Service Descriptions */
+
 .card p {
     font-size: 1rem;
     color: #666;
     line-height: 1.5;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .content-box {
         grid-template-columns: 1fr;
     }
 }
 
-/* Footer Styling */
 .footer {
     background-color: #000;
     color: #fff;
